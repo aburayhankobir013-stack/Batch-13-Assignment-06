@@ -2,6 +2,7 @@ import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
 import Review from "./components/Review";
 import GetStarted from "./components/GetStarted";
+import TransparentPricing from "./components/TransparentPricing";
 
 export default function App(){
   return(
@@ -10,6 +11,7 @@ export default function App(){
       <Hero />
       <Review />
       <GetStarted />
+      <TransparentPricing />
     </div>
   );
 }
