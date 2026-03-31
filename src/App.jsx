@@ -4,6 +4,7 @@ import Review from "./components/Review";
 import GetStarted from "./components/GetStarted";
 import TransparentPricing from "./components/TransparentPricing";
 import CtaCard from "./components/CtaCard";
+import Footer from "./components/Footer";
 
 export default function App(){
   return(
@@ -14,6 +15,7 @@ export default function App(){
       <GetStarted />
       <TransparentPricing />
       <CtaCard />
+      <Footer />
     </div>
   );
 }
