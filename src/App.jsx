@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Review from "./components/Review";
 import GetStarted from "./components/GetStarted";
 import TransparentPricing from "./components/TransparentPricing";
+import CtaCard from "./components/CtaCard";
 
 export default function App(){
   return(
@@ -12,6 +13,7 @@ export default function App(){
       <Review />
       <GetStarted />
       <TransparentPricing />
+      <CtaCard />
     </div>
   );
 }
