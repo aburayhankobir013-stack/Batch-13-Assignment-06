@@ -4,7 +4,7 @@ import HeroImage from "../assets/images/banner.png";
 
 export default function Hero() {
   return (
-    <div className="container mx-auto flex items-center justify-center gap-6">
+    <div className="container mx-auto flex items-center justify-center gap-6 mt-12.5">
       <div className="flex flex-col gap-4">
         <button className="bg-gray-300 flex items-center gap-2 px-2 py-1 rounded-full shadow-md font-semibold text-violet-700 cursor-pointer self-start">
           <FaRegDotCircle />

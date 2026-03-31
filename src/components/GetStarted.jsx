@@ -4,7 +4,7 @@ import RocketImage from "../assets/images/rocket.png";
 
 export default function GetStarted(){
   return(
-    <div className="container mx-auto flex flex-col gap-4">
+    <div className="container mx-auto flex flex-col gap-4 mt-12.5">
       <div className="flex justify-center items-center flex-col gap-1">
         <h1 className="text-2xl font-bold">
           Get Started In 3 Steps

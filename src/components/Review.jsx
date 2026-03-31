@@ -1,7 +1,7 @@
 
 export default function Review(){
   return(
-    <div className="container mx-auto flex items-center justify-around bg-violet-800 py-4">
+    <div className="container mx-auto flex items-center justify-around bg-violet-800 py-4 mt-12.5">
       <div className="flex flex-col gap-1 items-center">
         <h1 className="text-2xl font-bold text-white">
           50K+

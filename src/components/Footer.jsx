@@ -3,8 +3,7 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { IoLogoLinkedin } from "react-icons/io";
 export default function Footer(){
   return(
-    // Footer container
-    <div className="container mx-auto flex flex-col gap-5 border border-red-500 bg-slate-900 text-white pb-5">
+    <div className="container mx-auto flex flex-col gap-5 bg-slate-900 text-white pb-5">
       <div className="flex justify-between pt-25 px-12.5">
         <div className="flex flex-col gap-1">
           <h1 className="text-2xl font-bold text-white">

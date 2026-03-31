@@ -1,6 +1,6 @@
 export default function CtaCard() {
   return (
-    <div className="container max-auto border border-red-500 bg-violet-800 py-25 flex flex-col items-center text-center gap-4">
+    <div className="container mx-auto bg-violet-800 py-25 flex flex-col items-center text-center gap-4 mt-12.5">
       <div className="flex flex-col gap-2">
         <h1 className="text-2xl font-bold text-white">Ready to Transform Your Workflow?</h1>
         <p className="text-white">

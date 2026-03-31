@@ -2,7 +2,7 @@ import { IoIosCheckmark } from "react-icons/io";
 
 export default function TransparentPricing(){
   return(
-    <div className="container mx-auto border border-red-500 flex flex-col gap-4">
+    <div className="container mx-auto flex flex-col gap-4 mt-12.5">
       <div className="flex flex-col items-center gap-1">
         <h1 className="text-2xl font-bold">
           Simple, Transparent Pricing
@@ -11,8 +11,8 @@ export default function TransparentPricing(){
           Choose the plan that fits your needs. Upgrade or downgrade anytime.
         </p>
       </div>
-      <div className="border border-red-500 flex justify-center gap-4 px-50 py-8">
-        <div className="border border-red-500 flex-1 p-4 flex flex-col justify-between rounded-md shadow-md">
+      <div className="flex justify-center gap-4 px-50 py-8">
+        <div className="flex-1 p-4 flex flex-col justify-between rounded-md shadow-md">
           <div>
             <h1 className="text-xl font-bold">
               Starter
@@ -34,7 +34,7 @@ export default function TransparentPricing(){
             Get Started Free
           </button>
         </div>
-        <div className="border border-red-500 p-4 flex flex-col flex-1 justify-between gap-4 rounded-md shadow-md bg-violet-800 text-white relative">
+        <div className="p-4 flex flex-col flex-1 justify-between gap-4 rounded-md shadow-md bg-violet-800 text-white relative">
           <div className="px-4 py-1 rounded-full bg-yellow-300 text-red-500 font-semibold shadow-md absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/2">Most Popular</div>
           <div>
             <h1 className="text-xl font-bold">
@@ -59,7 +59,7 @@ export default function TransparentPricing(){
             Get Started Free
           </button>
         </div>
-          <div className="border border-red-500 p-4 flex-1 flex flex-col justify-between gap-4 rounded-md shadow-md">
+          <div className="p-4 flex-1 flex flex-col justify-between gap-4 rounded-md shadow-md">
           <div>
             <h1 className="text-xl font-bold">
               Enterprise
