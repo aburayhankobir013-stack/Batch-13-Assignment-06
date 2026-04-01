@@ -1,6 +1,9 @@
 import { FaCheck } from "react-icons/fa6";
+import React, { useState } from 'react';
+import { toast } from 'react-toastify';
 
 export default function Card({ card,carts,setCarts }) {
+  const[isActive,setIsActive]=useState(false);
   const badgeUpdate = (badge) => {
     if (badge === "Best Seller") {
       return "bg-yellow-100 text-yellow-700";
@@ -14,9 +17,11 @@ export default function Card({ card,carts,setCarts }) {
   const addToCart=(currentCard)=>{
     const exists=carts.find((cart)=>cart.id===currentCard.id);
     if(exists){
-      alert("Item already added in cart!");
+      toast.error("Already added to cart!");
       return;
     }
+    setIsActive(true);
+    toast("Added to cart!");
     setCarts((prevCart)=>[...prevCart,currentCard]);
   }
   return (
@@ -51,7 +56,7 @@ export default function Card({ card,carts,setCarts }) {
       </div>
       <div>
         <button className="bg-violet-800 w-full py-2 rounded-full font-bold text-white cursor-pointer hover:bg-violet-900 shadow-md" onClick={()=>addToCart(card)}>
-          Buy Now
+          {isActive?"Added to Cart":"Buy now"}
         </button>
       </div>
     </div>

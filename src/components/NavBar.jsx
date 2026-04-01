@@ -2,7 +2,7 @@ import CartIcon from "../assets/images/shopping-cart.png";
 
 export default function NavBar({carts}){
   return(
-    <header className="container mx-auto shadow-md sticky top-0 bg-gray-100">
+    <header className="container mx-auto shadow-md sticky top-0 z-50 bg-gray-100">
       <nav className="flex justify-between items-center py-4 px-2">
         <h1 className="text-violet-900 text-2xl font-bold">
           DigiTools

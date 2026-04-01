@@ -1,7 +1,9 @@
+import { toast } from "react-toastify";
 
 export default function Cart({cart,setCarts,carts}){
   const handleDelete = (id) => {
   const updatedCart = carts.filter(item => item.id !== id);
+  toast.error("Cart removed!");
   setCarts(updatedCart);
 };
   return(

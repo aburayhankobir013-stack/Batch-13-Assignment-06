@@ -7,7 +7,7 @@ import TransparentPricing from "./components/TransparentPricing";
 import CtaCard from "./components/CtaCard";
 import Footer from "./components/Footer";
 import { useEffect, useState } from "react";
-
+import { ToastContainer } from 'react-toastify';
 
 
 export default function App(){
@@ -30,6 +30,7 @@ export default function App(){
       <TransparentPricing />
       <CtaCard />
       <Footer />
+      <ToastContainer />
     </div>
   );
 }
